@@ -2,7 +2,7 @@
 
 You will need python 3.3+ to run this module.
 
-First Instal the dependencies using this command:
+First Install the dependencies using this command:
 
 ```
 $ pip install -r requirements.txt
