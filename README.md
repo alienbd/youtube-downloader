@@ -26,7 +26,7 @@ Here, folderName is the folder name where you wish to put your downloaded videos
 
 If the folder doesn't exist a new folder with the provided name (folderName) will be created
 
-And <url> is the name of the txt file without the extension
+And url is the name of the txt file without the extension
 
 ## Playlist
 
