@@ -38,3 +38,7 @@ $ python y2d.py -p <playlistURL>
 ```  
 $ python3 y2d.py -p <playlistURL>
 ```
+
+```
+example: $ python y2d.py -p https://www.youtube.com/playlist?list=PLzH6n4zXuckpfMu_4Ff8E7Z1behQks5ba
+```
