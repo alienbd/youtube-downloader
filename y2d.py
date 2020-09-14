@@ -33,7 +33,15 @@ def download(names, path):
 
         print("Downloading----> {}".format(title))
         print("size : {:.2f} MB".format(size / (1024*1024)))
-        best.download(path+"/"+title+"."+ext, quiet=False)
+
+        filePath = path + "/" + title + "." + ext
+
+        if (not os.path.exists(filePath)):
+            best.download(filePath, quiet=False)
+        elif (not os.path.getsize(filePath) == size):
+            best.download(filePath, quiet=False)
+        else:
+            print("Already downloaded")
 
 
 arg_count = len(sys.argv)
